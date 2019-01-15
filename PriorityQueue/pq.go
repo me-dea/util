@@ -5,6 +5,8 @@ type PriorityQueue []*Node
 type Node struct {
   Value string
   Priority int
+  Left *Node
+  Right *Node
 }
 
 func (pq PriorityQueue) Len() int {
