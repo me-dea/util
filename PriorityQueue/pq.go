@@ -1,4 +1,4 @@
-package PriorityQueue
+package pq
 
 type PriorityQueue []*Node
 
